@@ -1,4 +1,4 @@
-program pg001_stdprint;
+ï»¿program pg001_stdprint;
 
 {$APPTYPE CONSOLE}
 
@@ -9,8 +9,8 @@ uses
 
 begin
   try
-    writeln('‚±‚ñ‚É‚¿‚ÍAƒCƒ“ƒR‚¿‚á‚ñ');
-    { TODO -oUser -cConsole ƒƒCƒ“ : ‚±‚±‚ÉƒR[ƒh‚ğ‹Lq‚µ‚Ä‚­‚¾‚³‚¢ }
+    writeln('ã“ã‚“ã«ã¡ã¯ã€ã‚¤ãƒ³ã‚³ã¡ã‚ƒã‚“');
+    { TODO -oUser -cConsole ãƒ¡ã‚¤ãƒ³ : ã“ã“ã«ã‚³ãƒ¼ãƒ‰ã‚’è¨˜è¿°ã—ã¦ãã ã•ã„ }
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);
